@@ -1,10 +1,10 @@
 # Bulky-Mailer
 This code helps you send a particular mail to n number of reciever at a time.
 
-#Note:
+# Note:
 Requries an active internet connection to work.
 
-#Requriements:
+# Requriements:
    1. smtplib
    2. email.message
    3. time
