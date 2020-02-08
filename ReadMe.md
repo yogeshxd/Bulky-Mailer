@@ -8,6 +8,7 @@ Requries an active internet connection to work.
    1. smtplib
    2. email.message
    3. time
+   4. pyautogui
    
 # All Instrution For Usage Goes Step By Step Within The Programme.
 # For Any Complaints Or Compliments Just Write A Mail to guptayogesh138@gmail.com
