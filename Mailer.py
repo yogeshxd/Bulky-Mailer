@@ -9,6 +9,7 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 #importing
 try:
     import smtplib
+    import pyautogui
     import time
     from email.message import EmailMessage
     print("All modules installed")
@@ -80,7 +81,7 @@ def send(a,b):
     msg['From'] = mail
     s = smtplib.SMTP(host='smtp.gmail.com', port=587)
     s.starttls()
-    passwd = input('Enter Your Password:')
+    passwd = pyautogui.password('Enter Your Password:')
     s.login(mail, passwd)
     with open(b) as f:
         x = f.read().splitlines()
