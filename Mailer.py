@@ -36,11 +36,9 @@ Do you have a msg file prepared or you want to create one??
                 f.close()
             print("File Created And Will Be Used For Now")
             return name
-            break
         elif a==2:
             name = input('Enter Name Of File:')
             return name
-            break
         else:
             print("Enter a valid arrgument")
 def rec():
@@ -53,7 +51,6 @@ Do you have a file with emails of all recievers or want to create one??
         if ask==1:
             name=input("Enter name of file:")
             return name
-            break
         elif ask==2:
             name=input("Enter name of file:")
             print("Press ctrl+C to stop")
@@ -64,7 +61,6 @@ Do you have a file with emails of all recievers or want to create one??
                         f.write('\n')
                     except:
                         f.close()
-                        break
             return name
             break
         else:
