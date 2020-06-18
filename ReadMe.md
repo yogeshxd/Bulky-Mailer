@@ -12,3 +12,8 @@ Requries an active internet connection to work.
    
 # All Instrution For Usage Goes Step By Step Within The Programme.
 # For Any Complaints Or Compliments Just Write A Mail to guptayogesh138@gmail.com
+
+# ChangeLogs:
+0.2 - Added security layer for password
+
+0.1 - Initial release
