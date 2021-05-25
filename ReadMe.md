@@ -11,7 +11,7 @@ Requries an active internet connection to work.
    4. pyautogui
    
 # All Instrution For Usage Goes Step By Step Within The Programme.
-# For Any Complaints Or Compliments Just Write A Mail to guptayogesh138@gmail.com
+# For Any Complaints Or Compliments Just dm on [Insta](https://www.instagram.com/yogesh_.xd/).
 
 # ChangeLogs:
 0.2 - Added security layer for password
